@@ -1,0 +1,83 @@
+body, html {
+    height: 100%;
+    margin: 0%;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.jpg1 {
+    background-image: url(imagens/jpg1.jpg);
+    min-height: 100%;
+}
+
+.jpg2 {
+    background-image: url(imagens/jpg2.jpg);
+    min-height: 100%;
+}
+
+.jpg3 {
+    background-image: url(imagens/jpg3.jpg);
+    min-height: 100%;
+}
+
+.jpg4 {
+    background-image: url(imagens/jpg4.jpg);
+    min-height: 100%;
+}
+
+.jpg5 {
+    background-image: url(imagens/jpg5.jpg);
+    min-height: 100%;
+}
+
+.jpg6 {
+    background-image: url(imagens/jpg6.jpg);
+    min-height: 100%;
+}
+
+.jpg1, .jpg2, .jpg3, .jpg4, .jpg5, .jpg6 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.title .border {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+
+.text1 {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.text1-light {
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+section {
+    display: block;
+}
+
+div {
+    display: block;
+}
