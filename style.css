@@ -47,7 +47,7 @@ button:active {
     justify-content: space-around;
 }
 
-.jpg2 {
+.jpg6 {
     background-image: url(imagens/jpg6.jpg);
     min-height: 100%;
 }
@@ -57,17 +57,12 @@ button:active {
     min-height: 100%;
 }
 
-.jpg4 {
-    background-image: url(imagens/jpg4.jpg);
+.jpg2 {
+    background-image: url(imagens/jpg2.jpg);
     min-height: 100%;
 }
 
-.jpg5 {
-    background-image: url(imagens/jpg5.jpg);
-    min-height: 100%;
-}
-
-.jpg1, .jpg2, .jpg3, .jpg4, .jpg5, .jpg6 {
+.jpg1, .jpg3, .jpg2, .jpg6 {
     position: relative;
     opacity: 0.70;
     background-position: center;
