@@ -8,9 +8,56 @@ body, html {
     color: #666;
 }
 
+.container {
+    height: 100%;
+    display: flex;
+}
+
+.menu {
+    width: 15%;
+    background-color: #666;
+    padding: 20px;
+    color: #fff;
+    position: fixed; /* Adiciona a propriedade position: fixed */
+    top: 0; /* Fixa a barra lateral no topo */
+    left: 0; /* Fixa a barra lateral na lateral esquerda */
+    bottom: 0; /* Define a altura da barra lateral para ocupar toda a altura */
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #CCC;
+    text-align: left;
+}
+
+.menu ul li a {
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.menu ul li a:hover {
+    background: #E5F0FF;
+    color: #039;
+}
+
+.menu h1 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
 .jpg1 {
     background-image: url(imagens/jpg1.jpg);
-    min-height: 100%;
+    min-height: 100vh; /* Defina a altura do elemento para ocupar a tela inteira */
 }
 
 button {
@@ -35,12 +82,9 @@ button:hover {
   transform: scale(1.1);
 }
 
-
 button:active {
   background-color: rgb(129, 127, 127);
 }
-
-
 
 .textflex {
     display: flex;
@@ -49,17 +93,17 @@ button:active {
 
 .jpg6 {
     background-image: url(imagens/jpg6.jpg);
-    min-height: 100%;
+    min-height: 100vh; /* Defina a altura do elemento para ocupar a tela inteira */
 }
 
 .jpg3 {
     background-image: url(imagens/jpg3.jpg);
-    min-height: 100%;
+    min-height: 100vh; /* Defina a altura do elemento para ocupar a tela inteira */
 }
 
 .jpg2 {
     background-image: url(imagens/jpg2.jpg);
-    min-height: 100%;
+    min-height: 100vh; /* Defina a altura do elemento para ocupar a tela inteira */
 }
 
 .jpg1, .jpg3, .jpg2, .jpg6 {
@@ -68,12 +112,13 @@ button:active {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 .title {
     position: absolute;
     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 100%;
     text-align: center;
     color: #000;
